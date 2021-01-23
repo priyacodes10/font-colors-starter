@@ -1,0 +1,69 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/* ------ Phone -------  */
+@media(max-width: 600px){
+    
+}
+
+h1{  
+  font: #7b7d70;
+  }
+  
+h2{
+  font: #4eafb8;
+
+}
+
+p{
+  font: #ff8641;
+}
+
+/* ---- Tablet ---- */
+@media (min-width: 601px and max-width: 3499px){
+
+}
+
+h1{
+  font: #02cbd2;
+}
+
+h2{
+  font: #fcc02a;
+}
+
+p{
+  font:#7b8f8e;
+}
+
+/* ---- Desktop ---- */
+@media (max-width:3500px){
+  
+}
+h1{
+  font: #6e4b61;
+}
+
+h2{
+  font: #cabd61;
+}
+
+p{
+  font: #c19e74;
+}
